@@ -1,10 +1,11 @@
 import Particles from "react-tsparticles"
-import particlesConfig from "./config/particles.config"
+import particlesconfig from "./config/particles.config"
+
 function Particlesbg() {
   return (
-    <Particles params={particlesConfig} /> 
-
-    
+    <div>
+    <Particles params={particlesconfig} className="h-24"/> 
+    </div>
   )
 }
 
