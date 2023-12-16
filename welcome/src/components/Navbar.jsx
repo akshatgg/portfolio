@@ -11,7 +11,7 @@ function Navbar() {
   const iconColor = '#3498db'; 
   const imageStyle = {
     filter: 'invert(1) ',
-            height: '24px', // Adjust the height as needed
+            height: '20px', // Adjust the height as needed
             color: iconColor,
   };
 
