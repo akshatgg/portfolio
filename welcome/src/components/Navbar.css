@@ -1,0 +1,9 @@
+.icon{
+    color: blue; /* Change 'blue' to the desired color */
+    /* You can add other styles here if needed */
+    margin-left: 2px;
+}
+
+li img{
+    margin-left: 20%;
+}
