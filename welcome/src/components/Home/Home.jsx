@@ -21,7 +21,10 @@ function Home() {
       {/* ghhhhhhhh
       <img src={data.avatar_url} alt="Profile" style={{ width: '20%', height: 'auto' }} /> */}
 <div className="grid grid-cols-2 h-screen">
-  <div className="col-span-1 flex items-center justify-center mb-[50%]">
+  <div className="col-span-1 flex items-center justify-center ">
+
+
+
 
 
   <div className="grid grid-rows-2 ">
