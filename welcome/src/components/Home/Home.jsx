@@ -1,5 +1,6 @@
 // import { useEffect, useState } from "react"
 import Laptopanim from "./laptopanim"
+import Textanim from "./textanim"
 function Home() {
     // const [data,setdata]=useState([]);
     // useEffect(()=>{
@@ -23,7 +24,7 @@ function Home() {
 <Laptopanim/>
 </div>
 <div>
-    
+    <Textanim/>
 </div>
 </div>
 
