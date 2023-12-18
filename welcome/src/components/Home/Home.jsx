@@ -16,7 +16,8 @@ function Home() {
   return (
     <div className="text-black">
       ghhhhhhhh
-      <img src={data.avatar_url} alt="Profile" />
+      <img src={data.avatar_url} alt="Profile" style={{ width: '20%', height: 'auto' }} />
+
     </div>
   )
 }
