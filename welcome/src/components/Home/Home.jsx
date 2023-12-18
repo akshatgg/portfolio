@@ -24,25 +24,22 @@ function Home() {
   <div className="col-span-1 flex items-center justify-center mb-[50%]">
 
 
-   <div className="grid grid-rows-2">
-    <div className="rows-start-1">
-      <Hello />
-      <p>I am Akshat Gupta</p>
+  <div className="grid grid-rows-2 ">
+  <div className="row-start-1 ">
+    <div className="flex justify-center">
+    <Hello />
     </div>
-    <div className="rows-start-2">
-      <Textanim className="w-full h-full" />
-    </div>
-    </div>
+    <p className="flex justify-center text-4xl">I am Akshat Gupta</p>
+  </div>
+  <div className="row-start-2">
+    <Textanim className="w-full h-full" />
+  </div>
+</div>
 
 
 
   </div>
-
-
-
-
-
-
+  
   <div className="col-span-1 flex items-center justify-center">
     <Laptopanim className="w-full h-full" />
   </div>
