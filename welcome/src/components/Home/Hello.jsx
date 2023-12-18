@@ -8,6 +8,8 @@ function Hello() {
         loop={true}
         autoPlay={true}
         className='w-[150%] h-auto'
+        // className='w-[20%] h-auto'
+
       />
     </div>
   )

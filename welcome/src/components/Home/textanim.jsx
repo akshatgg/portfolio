@@ -1,24 +1,24 @@
-import { TypeAnimation } from 'react-type-animation'
-function textanim() {
+import { TypeAnimation } from 'react-type-animation';
+
+function Textanim() {
   return (
     <div>
-       <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-       
-        'Shaping the web, one code lineat a time',
-        1000,
-       
-        'I love turning ideas into seamless digital experiences',
-        1000
-      ]}
-      wrapper="span"
-      speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
-      repeat={Infinity}
-    />
+      <TypeAnimation
+        sequence={[
+          'Shaping the web, one code line at a time',
+          1000,
+          'I love turning ideas into seamless digital experiences',
+          1000,
+          'Passionate Developer from India',
+          1000,
+        ]}
+        wrapper="span"
+        speed={50}
+        style={{ fontSize: '2em', display: 'inline-block', color: '#800080' }}
+        repeat={Infinity}
+      />
     </div>
-  )
+  );
 }
 
-export default textanim
+export default Textanim;
