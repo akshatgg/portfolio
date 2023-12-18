@@ -5,13 +5,12 @@ function textanim() {
        <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'We produce food for Mice',
+        'I am Akshat Gupta',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'We produce food for Hamsters',
+        'Shaping the web, one code lineat a time',
         1000,
-        'We produce food for Guinea Pigs',
-        1000,
-        'We produce food for Chinchillas',
+       
+        'I love turning ideas into seamless digital experiences',
         1000
       ]}
       wrapper="span"
