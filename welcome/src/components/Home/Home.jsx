@@ -2,6 +2,7 @@
 import Laptopanim from "./laptopanim"
 import Textanim from "./textanim"
 import Hello from "./Hello"
+import About from "../About/About"
 function Home() {
     // const [data,setdata]=useState([]);
     // useEffect(()=>{
@@ -17,6 +18,7 @@ function Home() {
     //     });
     // })
   return (
+    <div>
     <div className="text-white ">
       {/* ghhhhhhhh
       <img src={data.avatar_url} alt="Profile" style={{ width: '20%', height: 'auto' }} /> */}
@@ -68,6 +70,10 @@ function Home() {
 </div>
 
     </div>
+
+
+</div>
+
   )
 }
 

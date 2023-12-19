@@ -1,10 +1,10 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
-import profile from '../assets/profile.png';
-import contact from '../assets/contact.png';
-import book from '../assets/book.png';
-import home from '../assets/home.png';
-import tech from '../assets/technical-support.png';
+import profile from '../../assets/profile.png';
+import contact from '../../assets/contact.png';
+import book from '../../assets/book.png';
+import home from '../../assets/home.png';
+import tech from '../../assets/technical-support.png';
 
 import './Navbar.css'; 
 function Navbar() {

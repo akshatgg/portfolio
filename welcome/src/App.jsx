@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar";
+import Execute from "./Execute";
+import Navbar from "./components/NavBar/Navbar";
 // import Particlesbg from "./components/Particlesbg";
 import {Outlet} from 'react-router-dom'
 function App() {
@@ -8,9 +9,10 @@ function App() {
       <div className="particlesheader">
         <h1>Particles.js</h1>
       </div> */}
-      
+     
       <Navbar/>
       <Outlet/>
+      <Execute/>
     </div>
   );
 }
