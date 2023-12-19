@@ -7,7 +7,7 @@ function aptopanim() {
         animationData={laptop}
         loop={true}
         autoPlay={true}
-        className='w-[90%] h-auto'
+        className='w-[88%] h-auto'
       />
 
       

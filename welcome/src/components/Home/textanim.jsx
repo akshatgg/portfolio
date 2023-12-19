@@ -7,7 +7,7 @@ function Textanim() {
         sequence={[
           'Shaping the web, one code line at a time',
           1000,
-          'I love turning ideas into seamless digital experiences',
+          'I love turning ideas into seamless digital',
           1000,
           'Passionate Developer from India',
           1000,
