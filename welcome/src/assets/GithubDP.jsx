@@ -18,7 +18,7 @@ function GithubDP() {
 <img
   src={data.avatar_url}
   alt="Profile"
-  style={{ width: '20%', height: 'auto' }}
+  style={{ width: '50%', height: 'auto' }}
   className="rounded-full"
 />
     </div>
