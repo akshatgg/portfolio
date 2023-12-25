@@ -14,6 +14,7 @@ import gitlab from "../../assets/gitlab.png"
 import CSS from "../../assets/css-3.png"
 import Cplus from "../../assets/c-.png"
 import image from "../../assets/image.jpeg"
+import python from "../../assets/python.png"
 
 
 
@@ -55,13 +56,13 @@ function About() {
            {/* <GithubDP/> */}
            <img src={image} className="rounded-full w-[45%] h-auto"></img>
            
-          <a href="#"><button className="bg-blue-700 pl-4 pr-4 text-center  rounded-lg mt-5">Resume</button></a>
+          <a href="#"><button className="resume bg-blue-700 pl-9 pr-9 text-center text-xl rounded-lg mt-9">Resume</button></a>
       </div>
 
       </div>
 
 
-      <div className="flex mt-[60px]">
+      <div className="flex ">
       <a href="" className="mr-5 inline-block  hover:scale-110 ">
         <img src={Github} alt='Github' style={imageStyle}/>
       </a>
@@ -80,7 +81,8 @@ function About() {
       </div>
 
 
-      
+      <div className="grid grid-cols-2">
+        <div className="col-start-1">
 <p className="text-3xl mt-6 text-gray-400 font-semibold"> Work Experience - </p>
       <div className="flex mt-5">
           <div className="animation mr-7">  <img src={linux} alt="" style={imageStyle}></img>  </div>
@@ -91,9 +93,26 @@ function About() {
           <div className="animation mr-7">  <img src={linux} alt="" style={imageStyle}></img>  </div>
  
 
+          </div>
 
       </div>
 
+       <div className="col-start-2 ">
+          <p className="text-3xl mt-6 text-gray-400 font-semibold"> Languages I know - </p>
+<div className="flex mt-5">
+<div className="animation mr-7">  <img src={js} alt="" style={imageStyle}></img>  </div>
+<div className="animation mr-7">  <img src={C} alt="" style={imageStyle}></img>  </div>
+<div className="animation mr-7">  <img src={Cplus} alt="" style={imageStyle}></img>  </div>
+<div className="animation mr-7">  <img src={java} alt="" style={imageStyle}></img>  </div>
+<div className="animation mr-7">  <img src={python} alt="" style={imageStyle}></img>  </div>
+
+
+
+
+</div>
+       </div>
+
+      </div>
       </div>
       </div>
     </div>
