@@ -1,4 +1,4 @@
-import GithubDP from "../../assets/GithubDP";
+// import GithubDP from "../../assets/GithubDP";
 import Github from "../../assets/github.png";
 import Gmail from "../../assets/gmail.png"
 import Twitter from "../../assets/twitter.png"
