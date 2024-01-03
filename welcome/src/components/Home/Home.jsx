@@ -64,7 +64,7 @@ function Home() {
 
   </div>
   
-  <div className="col-span-1 flex items-center justify-center">
+  <div className="col-span-1 flex items-center justify-center animation-container">
     <Laptopanim className="w-full h-full" />
   </div>
 </div>

@@ -30,7 +30,7 @@ function About() {
   return (
     
     <div className="flex justify-center h-screen bg-[#040404]   ">
-      <div className="w-[80%] h-[85%] mt-[100px] text-white bg-[#151030] rounded-[80px]">
+      <div className="w-[80%] h-[85%] mt-[100px] text-white bg-[#151030] rounded-[80px] animation-container">
      <div className="mt-9 ml-[8%]">
       <p className="text-7xl font-semibold ">
         About Me

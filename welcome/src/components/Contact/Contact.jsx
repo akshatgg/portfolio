@@ -1,7 +1,7 @@
 
 function Contact() {
   return (
-    <div className="h-screen">
+    <div className="h-screen bg-[#040404]">
       
     </div>
   )

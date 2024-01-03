@@ -1,5 +1,6 @@
 import Projectitem from "./Projectitem"
 import SipcraftImage from "../../assets/Sipcraft.png"
+import Portfolio from "../../assets/portfolio.png"
 import "./style.css"
 function Project() {
   return (
@@ -32,11 +33,11 @@ alt="Sipcraft"
 
 
 <Projectitem 
-projectname="Sipcraft"
+projectname="Portfolio"
  content="Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
-  livepreview="https://sipcraft.vercel.app/" 
-  github="https://github.com/akshatgg/SipCrafts" 
-image={SipcraftImage}
+  livepreview="https://akshatgg.vercel.app/" 
+  github="https://github.com/akshatgg/portfolio" 
+image={Portfolio}
 alt="Sipcraft"
 />
 
