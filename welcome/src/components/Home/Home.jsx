@@ -2,9 +2,15 @@
 import Laptopanim from "./laptopanim"
 import Textanim from "./textanim"
 import Hello from "./Hello"
-// import About from "../About/About"
+import AOS from "aos"
+import "aos/dist/aos.css";
+
 import "./HomeStyle.css"
+import { useEffect } from "react";
 function Home() {
+  useEffect(()=>{
+    AOS.init(({duratin:1000}))
+  },[])
     // const [data,setdata]=useState([]);
     // useEffect(()=>{
     //     fetch('https://api.github.com/users/akshatgg')
@@ -65,7 +71,7 @@ function Home() {
 
   </div>
   
-  <div className="col-span-1 flex items-center justify-center animation-contain">
+  <div className="col-span-1 flex items-center justify-center " data-aos="fade-left">
     <Laptopanim className="w-full h-full" />
   </div>
 </div>

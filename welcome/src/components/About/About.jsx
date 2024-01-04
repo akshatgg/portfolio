@@ -16,11 +16,16 @@ import Cplus from "../../assets/c-.png"
 import image from "../../assets/image.jpeg"
 import python from "../../assets/python.png"
 import Vite from "../../assets/vite-seeklogo.com.svg"
-
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 
 import "./Style.css"
+import { useEffect } from "react";
 function About() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   const iconColor = '#3498db';
 
   const imageStyle = {
@@ -31,7 +36,7 @@ function About() {
   return (
     
     <div className="flex justify-center h-screen bg-[#040404]   ">
-      <div className="w-[80%] h-[85%] mt-[100px] text-white bg-[#151030] rounded-[80px] animation-container">
+      <div className="w-[80%] h-[85%] mt-[100px] text-white bg-[#151030] rounded-[80px] " data-aos="fade-right">
      <div className="mt-9 ml-[8%]">
       <p className="text-7xl font-semibold ">
         About Me

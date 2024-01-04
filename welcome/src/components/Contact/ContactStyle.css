@@ -9,36 +9,3 @@ button:hover{
 }
 
 
-@keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .containerw {
-    animation: slideInLeft 1s ease-in-out; /* Adjust the duration and easing as needed */
-  }
-  
-
-
-
-  @keyframes slideInRight {
-    0% {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .conta {
-    animation: slideInRight 1s ease-in-out; /* Adjust the duration and easing as needed */
-  }
-  

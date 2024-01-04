@@ -11,21 +11,3 @@
     height: 200vh;
 }
 
-
-/* Style.css */
-
-@keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .animation-container {
-    animation: slideInLeft 1s ease-in-out; /* Adjust the duration and easing as needed */
-  }
-  

@@ -1,26 +1,20 @@
 import WorldLottie from "./WorldLottie";
-import  { useEffect, useState } from 'react';
+import  { useEffect} from 'react';
 import "./ContactStyle.css"
+import AOS from "aos";
+import 'aos/dist/aos.css'
 function Contact() {
-  const [animate, setAnimate] = useState(false);
-
   useEffect(() => {
-    // Trigger animations when the component mounts
-    setAnimate(true);
-
-    // Clean up on component unmount
-    return () => {
-      setAnimate(false);
-    };
+    AOS.init({ duration: 1000 });
   }, []);
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Your logic to handle form submission (e.g., sending an email) goes here
   };
   return (
-    <div className={`h-screen bg-[#040404] flex items-center justify-center ${animate ? 'animate' : ''}`}>
-    <div className={`text-white bg-[#100D25] p-11 rounded-3xl ml-[300px] containerw ${animate ? 'slideInLeft' : ''}`}>
+    <div className="h-screen bg-[#040404] flex items-center justify-center ">
+    <div className= "text-white bg-[#100D25] p-11 rounded-3xl ml-[300px]  " data-aos="fade-right">
           <form onSubmit={handleSubmit} className="">
             <p>Get in Touch</p>
              <p className="text-white text-[50px] font-extrabold mb-[15%] ">Contact me</p>
@@ -47,7 +41,7 @@ function Contact() {
             <button type="submit" className="bg-[#151030]" id="mailButton">Send</button>
           </form>
         </div>
-        <div className={`cols-start-2 ml-[200px] conta ${animate ? 'slideInRight' : ''}`}>
+        <div className="cols-start-2 ml-[200px] " data-aos="fade-left">
           <WorldLottie />
         </div>
       </div>
