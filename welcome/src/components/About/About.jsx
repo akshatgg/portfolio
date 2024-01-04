@@ -15,6 +15,7 @@ import CSS from "../../assets/css-3.png"
 import Cplus from "../../assets/c-.png"
 import image from "../../assets/image.jpeg"
 import python from "../../assets/python.png"
+import Vite from "../../assets/vite-seeklogo.com.svg"
 
 
 
@@ -90,8 +91,8 @@ function About() {
           <div className="animation mr-7">  <img src={gitlab} alt="" style={imageStyle}></img>  </div>
           <div className="animation mr-7">  <img src={CSS} alt="" style={imageStyle}></img>  </div>
           <div className="animation mr-7">  <img src={html} alt="" style={imageStyle}></img>  </div>
-          <div className="animation mr-7">  <img src={linux} alt="" style={imageStyle}></img>  </div>
- 
+          <div className="animation mr-7">  <img src={Vite} alt="" style={imageStyle}></img>  </div>
+
 
           </div>
 

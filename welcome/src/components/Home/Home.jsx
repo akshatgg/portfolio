@@ -3,6 +3,7 @@ import Laptopanim from "./laptopanim"
 import Textanim from "./textanim"
 import Hello from "./Hello"
 // import About from "../About/About"
+import "./HomeStyle.css"
 function Home() {
     // const [data,setdata]=useState([]);
     // useEffect(()=>{
@@ -64,7 +65,7 @@ function Home() {
 
   </div>
   
-  <div className="col-span-1 flex items-center justify-center animation-container">
+  <div className="col-span-1 flex items-center justify-center animation-contain">
     <Laptopanim className="w-full h-full" />
   </div>
 </div>
