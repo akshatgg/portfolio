@@ -12,7 +12,7 @@ function Execute() {
     <div className='overflow-x-hidden'>
       {isMobile ? (
         // Render mobile-specific component or content
-        <div className='w-[200px]'>
+        <div className='text-[100px] text-white'>
           {/* Mobile-specific content goes here */}
           <p>Only For PC Version</p>
         </div>
