@@ -35,7 +35,7 @@ function Project() {
 
 <Projectitem 
 projectname="Sipcraft"
- content="Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+ content="Web-based platform that allows users to search, Drinks ,Cocktails ,Mocktails ,Shakes and you can easily buy and you can get your items at your doorstep."
   livepreview="https://sipcraft.vercel.app/" 
   github="https://github.com/akshatgg/SipCrafts" 
 image={SipcraftImage}
@@ -45,7 +45,7 @@ alt="Sipcraft"
 
 <Projectitem 
 projectname="Portfolio"
- content="Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+ content="Web-based platform that allows users to give information about me and also tell eyeryone about my experiences for my Web. You can also send me Mail from my portfolio. "
   livepreview="https://akshatgg.vercel.app/" 
   github="https://github.com/akshatgg/portfolio" 
 image={Portfolio}
@@ -59,7 +59,7 @@ image={Portfolio}
 
 <Projectitem 
 projectname="News-App"
- content="Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+ content="Web-based platform that users to search news of every country and you can also search categories in every speciefic country. "
   livepreview="https://feonews-app.vercel.app/" 
   github="" 
 image={News}
@@ -72,7 +72,7 @@ alt="Sipcraft"
 <div className="flex" data-aos="fade-up">
 <Projectitem 
 projectname="Grocery List"
- content="Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
+ content="Web-based platform that users to add many grocery items as you like it and also you can search many items in your list."
   livepreview="https://owngrocery.vercel.app/" 
   github="https://github.com/akshatgg/grocery-list" 
 image={Grocery}

@@ -11,7 +11,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_o3t5lxg', 'template_fgorclf', form.current, '')
+    emailjs.sendForm('service_o3t5lxg', 'template_fgorclf', form.current, 'gpGpva79IfwwFH4Ql')
     .then((result) => {
       console.log('SUCCESS!',result.text);
       form.current.reset();
