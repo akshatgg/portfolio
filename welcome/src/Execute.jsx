@@ -3,6 +3,7 @@ import About from './components/About/About';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
 import { useMediaQuery } from 'react-responsive';
+import { Element } from 'react-scroll';
 
 function Execute() {
   // Set up media queries
@@ -21,10 +22,10 @@ function Execute() {
       ) : (
         // Render desktop-specific components or content
         <div>
-          <Home />
-          <About />
-          <Project />
-          <Contact />
+          <Element name='Home'><Home /></Element>
+         <Element name='About'><About /></Element> 
+          <Element name='Project'><Project /></Element>
+          <Element name='Contact'><Contact /></Element>
         </div>
       )}
     </div>

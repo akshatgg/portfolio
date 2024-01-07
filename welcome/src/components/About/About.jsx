@@ -62,7 +62,7 @@ function About() {
            {/* <GithubDP/> */}
            <img src={image} className="rounded-full w-[45%] h-auto"></img>
            
-          <a href="#"><button className="resume bg-blue-700 pl-9 pr-9 text-center text-xl rounded-lg mt-9">Resume</button></a>
+          <a href="https://drive.google.com/file/d/1Yko10KJTAupT5C0iKq1VKq-5peNZMhUH/view?usp=sharing" target="blank"><button className="resume bg-blue-700 pl-9 pr-9 text-center text-xl rounded-lg mt-9">Resume</button></a>
       </div>
 
       </div>
