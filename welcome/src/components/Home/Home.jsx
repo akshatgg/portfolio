@@ -3,7 +3,8 @@ import Laptopanim from "./laptopanim"
 import Textanim from "./textanim"
 import Hello from "./Hello"
 import AOS from "aos"
-import "aos/dist/aos.css";
+import "aos/dist/aos.css"; 
+import './HomeStyle.css'
 
 import "./HomeStyle.css"
 import { useEffect } from "react";
@@ -29,13 +30,13 @@ function Home() {
     <div className="text-white ">
       {/* ghhhhhhhh
       <img src={data.avatar_url} alt="Profile" style={{ width: '20%', height: 'auto' }} /> */}
-<div className="grid grid-cols-2 ">
+<div className="grid grid-cols-2 overflow-hidden">
   {/* <div className="col-span-1 flex items-center justify-center "> */}
 
-
-  <div className="col-span-1  flex justify-center">
-<div className="grid grid-rows-2">
-<div className="flex mt-[10%] rows-span-1 gap-x-2 ">
+  
+  <div className="col-span-1  flex justify-center">     
+  <div className="grid grid-rows-2">
+  <div className="flex mt-[10%] rows-span-1 gap-x-2 ">
     <div className="grid grid-rows-2">
       <div className="row-start-1 flex">
 <Hello/>
@@ -71,8 +72,8 @@ function Home() {
 
   </div>
   
-  <div className="col-span-1 flex items-center justify-center " data-aos="fade-left">
-    <Laptopanim className="w-full h-full" />
+  <div className="col-span-1 flex items-center justify-center mb-36 " data-aos="fade-left" >
+  <Laptopanim className="laptop w-full h-full" />
   </div>
 </div>
 

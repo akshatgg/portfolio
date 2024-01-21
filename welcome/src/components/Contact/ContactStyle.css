@@ -1,5 +1,6 @@
 .input{
     width: 400px;
+    max-width: 401px;
 }
 
 button:hover{
@@ -8,4 +9,11 @@ button:hover{
     
 }
 
+.screenw{
+    height:100vh;
+}
 
+.ttr{
+height: auto;
+width: 500px;
+}

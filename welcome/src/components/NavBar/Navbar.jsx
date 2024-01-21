@@ -9,7 +9,7 @@ import './Navbar.css';
 
 function Navbar() {
   const iconColor = '#3498db';
-
+  
   const imageStyle = {
     filter: 'invert(1) ',
     height: '20px', // Adjust the height as needed
@@ -25,6 +25,7 @@ function Navbar() {
       setFix(false);
     }
   };
+  
 
   useEffect(() => {
     window.addEventListener('scroll', setFixed);

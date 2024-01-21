@@ -9,9 +9,8 @@ function Execute() {
   // Set up media queries
   
   const isMobile = useMediaQuery({ maxWidth: 767 }); // Adjust the maximum width as needed
-
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden bg-black overflow-hidden'>
       {isMobile ? (
         // Render mobile-specific component or content
         <div className='text-[50px] text-white'>
