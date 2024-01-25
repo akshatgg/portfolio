@@ -30,14 +30,14 @@ function About() {
 
   const imageStyle = {
     filter: 'invert(1) ',
-    height: '45px', // Adjust the height as needed
+    height: '5vh', // Adjust the height as needed
     width:'auto',
     color: iconColor,
   };
   return (
     
     <div className="sc flex justify-center  bg-[#040404]   ">
-      <div className="w-[80%] h-auto mt-[100px] text-white bg-[#151030] rounded-[80px] " data-aos="fade-right">
+      <div className="absolute w-[80%] h-auto mt-[100px] text-white bg-[#151030] rounded-[80px] " data-aos="fade-right">
      <div className="mt-9 ml-[8%]">
       <p className="text-7xl font-semibold ">
         About Me
@@ -69,7 +69,7 @@ function About() {
       </div>
 
 
-      <div className="flex mt-10">
+      <div className="flex flex-wrap mt-10">
       <a href="" className="mr-5 inline-block  hover:scale-110 ">
         <img src={Github} alt='Github' style={imageStyle}/>
       </a>
@@ -88,10 +88,10 @@ function About() {
       </div>
 
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 mb-8">
         <div className="col-start-1">
 <p className="text-3xl mt-6 text-gray-400 font-semibold"> Work Experience - </p>
-      <div className="flex mt-5">
+      <div className="flex flex-wrap mt-5">
           <div className="animation mr-7">  <img src={linux} alt="" style={imageStyle}></img>  </div>
           <div className="animation mr-7">  <img src={React} alt="" style={imageStyle}></img>  </div>
           <div className="animation mr-7">  <img src={gitlab} alt="" style={imageStyle}></img>  </div>
@@ -106,7 +106,7 @@ function About() {
 
        <div className="col-start-2 ">
           <p className="text-3xl mt-6 text-gray-400 font-semibold"> Languages I know - </p>
-<div className="flex mt-5">
+<div className="flex flex-wrap mt-5">
 <div className="animation mr-7">  <img src={js} alt="" style={imageStyle}></img>  </div>
 <div className="animation mr-7">  <img src={C} alt="" style={imageStyle}></img>  </div>
 <div className="animation mr-7">  <img src={Cplus} alt="" style={imageStyle}></img>  </div>
