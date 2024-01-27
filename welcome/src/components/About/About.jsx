@@ -73,18 +73,18 @@ function About() {
 
       <div className="flex flex-wrap mt-10">
       <a href="https://github.com/akshatgg" className="mr-5 inline-block ">
-        <img src={Github} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
+        <img src={Github} alt='Github' className=" hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
-      <a href="https://mail.google.com/mail/u/0/#inbox" className="mr-5 inline-block  ">
+      <a href="" className="mr-5 inline-block  ">
         <img src={Gmail} alt='Github' className="hover:translate-y-[-8px] h-14 w-14  hover:scale-105  duration-300" style={imageStyle}/>
       </a>
-      <a href="" className="mr-5 inline-block">
+      <a href="https://twitter.com/akshat___30" className="mr-5 inline-block">
         <img src={Twitter} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
       <a href="" className="mr-5 inline-block">
         <img src={Linkedin} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
-      <a href=""className="mr-5 inline-block">
+      <a href="https://www.instagram.com/akshat__30/"className="mr-5 inline-block">
         <img src={Instagram} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
       </div>
@@ -103,7 +103,7 @@ function About() {
   
   <div className="flex flex-wrap mt-5">
   <div className="animation mr-2 relative group">
-    <img src={linux} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14  hover:scale-110 rounded-full duration-300" />
+    <img src={linux} alt="" style={imageStyle} className=" hover:translate-y-[-8px] h-14 w-14  hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Linux
     </div>
