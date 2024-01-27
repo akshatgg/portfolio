@@ -19,6 +19,9 @@ import Vite from "../../assets/vite-seeklogo.com.svg"
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import "./Style.css"
+import postman from "../../assets/postman-seeklogo.svg"
+import node from "../../assets/node-js-seeklogo.svg"
+import mongo from "../../assets/mongodb-seeklogo.svg"
 
 
 import { useEffect } from "react";
@@ -30,8 +33,7 @@ function About() {
 
   const imageStyle = {
     filter: 'invert(1) ',
-    height: '5vh', // Adjust the height as needed
-    width:'auto',
+
     color: iconColor,
   };
   return (
@@ -70,54 +72,142 @@ function About() {
 
 
       <div className="flex flex-wrap mt-10">
-      <a href="" className="mr-5 inline-block  hover:scale-110 ">
-        <img src={Github} alt='Github' style={imageStyle}/>
+      <a href="https://github.com/akshatgg" className="mr-5 inline-block ">
+        <img src={Github} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
-      <a href="" className="mr-5 inline-block  hover:scale-110 ">
-        <img src={Gmail} alt='Github' style={imageStyle}/>
+      <a href="https://mail.google.com/mail/u/0/#inbox" className="mr-5 inline-block  ">
+        <img src={Gmail} alt='Github' className="hover:translate-y-[-8px] h-14 w-14  hover:scale-105  duration-300" style={imageStyle}/>
       </a>
-      <a href="" className="mr-5 inline-block  hover:scale-110 ">
-        <img src={Twitter} alt='Github' style={imageStyle}/>
+      <a href="" className="mr-5 inline-block">
+        <img src={Twitter} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
-      <a href="" className="mr-5 inline-block  hover:scale-110 ">
-        <img src={Linkedin} alt='Github' style={imageStyle}/>
+      <a href="" className="mr-5 inline-block">
+        <img src={Linkedin} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
-      <a href=""className="mr-5 inline-block  hover:scale-110 ">
-        <img src={Instagram} alt='Github' style={imageStyle}/>
+      <a href=""className="mr-5 inline-block">
+        <img src={Instagram} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
       </div>
 
 
       <div className="grid grid-cols-2 mb-8">
-        <div className="col-start-1">
-<p className="text-3xl mt-6 text-gray-400 font-semibold"> Work Experience - </p>
-      <div className="flex flex-wrap mt-5">
-          <div className="animation mr-7">  <img src={linux} alt="" style={imageStyle}></img>  </div>
-          <div className="animation mr-7">  <img src={React} alt="" style={imageStyle}></img>  </div>
-          <div className="animation mr-7">  <img src={gitlab} alt="" style={imageStyle}></img>  </div>
-          <div className="animation mr-7">  <img src={CSS} alt="" style={imageStyle}></img>  </div>
-          <div className="animation mr-7">  <img src={html} alt="" style={imageStyle}></img>  </div>
-          <div className="animation mr-7">  <img src={Vite} alt="" style={imageStyle}></img>  </div>
 
 
-          </div>
 
-      </div>
 
-       <div className="col-start-2 ">
-          <p className="text-3xl mt-6 text-gray-400 font-semibold"> Languages I know - </p>
-<div className="flex flex-wrap mt-5">
-<div className="animation mr-7">  <img src={js} alt="" style={imageStyle}></img>  </div>
-<div className="animation mr-7">  <img src={C} alt="" style={imageStyle}></img>  </div>
-<div className="animation mr-7">  <img src={Cplus} alt="" style={imageStyle}></img>  </div>
-<div className="animation mr-7">  <img src={java} alt="" style={imageStyle}></img>  </div>
-<div className="animation mr-7">  <img src={python} alt="" style={imageStyle}></img>  </div>
 
+      <div className="col-start-1">
+  <p className="text-4xl mt-6 text-gray-400 font-semibold">Work Experience - </p>
+  
+  
+  
+  <div className="flex flex-wrap mt-5">
+  <div className="animation mr-2 relative group">
+    <img src={linux} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14  hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      Linux
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={React} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      React
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={gitlab} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      GitLab
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={CSS} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      CSS
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={html} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      HTML
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={Vite} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      Vite
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={postman} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      Postman
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={node} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      Node.js
+    </div>
+  </div>
+  <div className="animation mr-3 relative group">
+    <img src={mongo} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      MongoDB
+    </div>
+  </div>
+</div>
 
 
 
 </div>
-       </div>
+
+
+
+
+
+<div className="col-start-2">
+  <p className="text-4xl mt-6 text-gray-400 font-semibold">Languages I know - </p>
+  
+  
+  
+  <div className="flex flex-wrap mt-5">
+  <div className="animation mr-7 relative group">
+    <img src={js} alt="" style={imageStyle} className="hover:translate-y-[-8px]  h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      JavaScript
+    </div>
+  </div>
+  <div className="animation mr-7 relative group">
+    <img src={C} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      C
+    </div>
+  </div>
+  <div className="animation mr-7 relative group">
+    <img src={Cplus} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14  hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      C++
+    </div>
+  </div>
+  <div className="animation mr-7 relative group">
+    <img src={java} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      Java
+    </div>
+  </div>
+  <div className="animation mr-7 relative group">
+    <img src={python} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
+      Python
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
 
       </div>
       </div>

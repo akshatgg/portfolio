@@ -35,7 +35,7 @@ function Contact() {
 
   return (
     <div className="screenw bg-[#040404] flex items-center justify-center ">
-    <div className= "ttr text-white bg-[#100D25] p-11 rounded-3xl ml-[300px] h-auto w-[500px]  " data-aos="fade-right">
+    <div className= "ttr text-white bg-[#100D25] p-11 rounded-3xl ml-[300px]   " data-aos="fade-right">
           <form ref={form} onSubmit={sendEmail}>
             <p>Get in Touch</p>
              <p className="text-white text-[50px] font-extrabold mb-[15%] ">Contact me</p>
