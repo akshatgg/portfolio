@@ -1,12 +1,13 @@
-import Particles from "react-tsparticles"
-import particlesconfig from "./config/particles.config"
+import React from "react";
+import Particles from "react-tsparticles";
+import particlesConfig from "./config/particles.config.jsx"; // Make sure to adjust the path to your particles configuration file
 
 function Particlesbg() {
   return (
-    <div>
-    <Particles params={particlesconfig} className="h-24"/> 
+    <div className="particles-container">
+      <Particles params={particlesConfig} />
     </div>
-  )
+  );
 }
 
-export default Particlesbg
+export default Particlesbg;

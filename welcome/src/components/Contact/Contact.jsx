@@ -5,6 +5,7 @@ import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import Particlesbg from "../Particlesbg.jsx";
 function Contact() {
   const form = useRef();
 
@@ -34,6 +35,8 @@ function Contact() {
  
 
   return (
+    <>
+    <Particlesbg />
     <div className="screenw bg-[#040404] flex items-center justify-center ">
     <div className= "ttr text-white bg-[#100D25] p-11 rounded-3xl ml-[10%]   " data-aos="fade-right">
           <form ref={form} onSubmit={sendEmail} className="justify-center">
@@ -66,7 +69,7 @@ function Contact() {
           <WorldLottie />
         </div>
       </div>
-    
+      </>
   );
 }
 
