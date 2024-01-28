@@ -73,19 +73,19 @@ function About() {
 
       <div className="flex flex-wrap mt-10">
       <a href="https://github.com/akshatgg" className="mr-5 inline-block ">
-        <img src={Github} alt='Github' className=" hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
+        <img src={Github} alt='Github' className=" hover:translate-y-[-8px] h-10 w-10 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
       <a href="" className="mr-5 inline-block  ">
-        <img src={Gmail} alt='Github' className="hover:translate-y-[-8px] h-14 w-14  hover:scale-105  duration-300" style={imageStyle}/>
+        <img src={Gmail} alt='Github' className="hover:translate-y-[-8px] h-10 w-10  hover:scale-105  duration-300" style={imageStyle}/>
       </a>
       <a href="https://twitter.com/akshat___30" className="mr-5 inline-block">
-        <img src={Twitter} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105 duration-300" style={imageStyle}/>
+        <img src={Twitter} alt='Github' className="hover:translate-y-[-8px] h-10 w-10 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
       <a href="" className="mr-5 inline-block">
-        <img src={Linkedin} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105  duration-300" style={imageStyle}/>
+        <img src={Linkedin} alt='Github' className="hover:translate-y-[-8px] h-10 w-10 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
       <a href="https://www.instagram.com/akshat__30/"className="mr-5 inline-block">
-        <img src={Instagram} alt='Github' className="hover:translate-y-[-8px] h-14 w-14 hover:scale-105  duration-300" style={imageStyle}/>
+        <img src={Instagram} alt='Github' className="hover:translate-y-[-8px] h-10 w-10 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
       </div>
 
@@ -103,55 +103,55 @@ function About() {
   
   <div className="flex flex-wrap mt-5">
   <div className="animation mr-2 relative group">
-    <img src={linux} alt="" style={imageStyle} className=" hover:translate-y-[-8px] h-14 w-14  hover:scale-110 rounded-full duration-300" />
+    <img src={linux} alt="" style={imageStyle} className=" hover:translate-y-[-8px] h-10 w-10  hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Linux
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={React} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={React} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       React
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={gitlab} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={gitlab} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       GitLab
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={CSS} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={CSS} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       CSS
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={html} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={html} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       HTML
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={Vite} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={Vite} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Vite
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={postman} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={postman} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Postman
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={node} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={node} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Node.js
     </div>
   </div>
   <div className="animation mr-3 relative group">
-    <img src={mongo} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={mongo} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       MongoDB
     </div>
@@ -173,31 +173,31 @@ function About() {
   
   <div className="flex flex-wrap mt-5">
   <div className="animation mr-7 relative group">
-    <img src={js} alt="" style={imageStyle} className="hover:translate-y-[-8px]  h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={js} alt="" style={imageStyle} className="hover:translate-y-[-8px]  h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       JavaScript
     </div>
   </div>
   <div className="animation mr-7 relative group">
-    <img src={C} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={C} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       C
     </div>
   </div>
   <div className="animation mr-7 relative group">
-    <img src={Cplus} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14  hover:scale-110 rounded-full duration-300" />
+    <img src={Cplus} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10  hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       C++
     </div>
   </div>
   <div className="animation mr-7 relative group">
-    <img src={java} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={java} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Java
     </div>
   </div>
   <div className="animation mr-7 relative group">
-    <img src={python} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-14 w-14 hover:scale-110 rounded-full duration-300" />
+    <img src={python} alt="" style={imageStyle} className="hover:translate-y-[-8px] h-10 w-10 hover:scale-110 rounded-full duration-300" />
     <div className="hidden group-hover:block absolute bg-gray-800 text-white p-2 rounded-lg top-0 left-0 mt-10">
       Python
     </div>
