@@ -12,7 +12,7 @@ const SocialLinks = () => {
                  LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href:"https://www.linkedin.com/in/atharva-sachan-975848252/",
+            href:"https://www.linkedin.com/in/akshat-gupta-137885256/",
             style:'rounded-tr-md'
         },
         {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
                  GitHub <FaGithub size={30}/>
                 </>
             ),
-            href:"https://github.com/AtharvaSachan123",
+            href:"https://github.com/akshatgg",
            
         },
         {
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                  Mail <HiOutlineMail size={30}/>
                 </>
             ),
-            href:"mailto:atharvasachan823@gmail.com",
+            href:"mailto:akshatg9636@gmail.com",
             
         },
         {
@@ -42,7 +42,7 @@ const SocialLinks = () => {
                  Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:"/Resume.pdf",
+            href:"https://drive.google.com/file/d/1Yko10KJTAupT5C0iKq1VKq-5peNZMhUH/view",
             style:'rounded-br-md',
             download: true,
         },
