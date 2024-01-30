@@ -1,6 +1,5 @@
-import React from "react";
 import Particles from "react-tsparticles";
-import particlesConfig from "./config/particles.config.jsx"; // Make sure to adjust the path to your particles configuration file
+import particlesConfig from "./config/particles.config.jsx"; 
 
 function Particlesbg() {
   return (
@@ -11,3 +10,6 @@ function Particlesbg() {
 }
 
 export default Particlesbg;
+
+
+

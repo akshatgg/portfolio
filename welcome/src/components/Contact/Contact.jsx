@@ -7,7 +7,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 import Particlesbg from "../Particlesbg.jsx";
 function Contact() {
-  const form = useRef();
+const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
