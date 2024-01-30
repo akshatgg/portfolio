@@ -1,9 +1,9 @@
 // import GithubDP from "../../assets/GithubDP";
-import Github from "../../assets/github.png";
-import Gmail from "../../assets/gmail.png"
-import Twitter from "../../assets/twitter.png"
-import Linkedin from "../../assets/linkedin.png"
-import Instagram from "../../assets/instagram.png"
+// import Github from "../../assets/github.png";
+// import Gmail from "../../assets/gmail.png"
+// import Twitter from "../../assets/twitter.png"
+// import Linkedin from "../../assets/linkedin.png"
+// import Instagram from "../../assets/instagram.png"
 import linux from "../../assets/linux.png"
 import js from "../../assets/js.png"
 import React from "../../assets/React.png"
@@ -63,15 +63,15 @@ function About() {
       <div className="col-start-2 flex flex-col items-center">
       
            {/* <GithubDP/> */}
-           <img src={image} className="rounded-full w-[45%] h-auto"></img>
+           <img src={image} className="rounded-full w-[50%] h-auto"></img>
            
-          <a href="https://drive.google.com/file/d/1Yko10KJTAupT5C0iKq1VKq-5peNZMhUH/view?usp=sharing" target="blank"><button className="resume bg-blue-700 pl-9 pr-9 text-center text-xl rounded-lg mt-9">Resume</button></a>
+          {/* <a href="https://drive.google.com/file/d/1Yko10KJTAupT5C0iKq1VKq-5peNZMhUH/view?usp=sharing" target="blank"><button className="resume bg-blue-700 pl-9 pr-9 text-center text-xl rounded-lg mt-9">Resume</button></a> */}
       </div>
 
       </div>
 
 
-      <div className="flex flex-wrap mt-10">
+      {/* <div className="flex flex-wrap mt-10">
       <a href="https://github.com/akshatgg" className="mr-5 inline-block ">
         <img src={Github} alt='Github' className=" hover:translate-y-[-8px] h-10 w-10 hover:scale-105 duration-300" style={imageStyle}/>
       </a>
@@ -87,7 +87,7 @@ function About() {
       <a href="https://www.instagram.com/akshat__30/"className="mr-5 inline-block">
         <img src={Instagram} alt='Github' className="hover:translate-y-[-8px] h-10 w-10 hover:scale-105  duration-300" style={imageStyle}/>
       </a>
-      </div>
+      </div> */}
 
 
       <div className="grid grid-cols-2 mb-8">
@@ -96,9 +96,9 @@ function About() {
 
 
 
-      <div className="col-start-1">
+      <div className="col-start-1 mt-5">
   <p className="text-4xl mt-6 text-gray-400 font-semibold">Work Experience - </p>
-  
+   
   
   
   <div className="flex flex-wrap mt-5">
@@ -166,7 +166,7 @@ function About() {
 
 
 
-<div className="col-start-2">
+<div className="col-start-2 mt-5">
   <p className="text-4xl mt-6 text-gray-400 font-semibold">Languages I know - </p>
   
   

@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
-import About from './components/About/About.jsx';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Contact from './components/Contact/Contact.jsx';
-import Project from './components/Projects/Project.jsx';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 
 const router = (
