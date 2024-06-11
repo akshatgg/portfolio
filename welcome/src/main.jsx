@@ -7,14 +7,16 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 const router = (
-  <Router>
-    <Routes>
+  
+    <Router>
+      <Routes>
       <Route path='/' element={<App />} />
       {/* <Route path='/About' element={<About />} />
       <Route path='/Contact' element={<Contact />} />
       <Route path='/Project' element={<Project />} /> */}
-    </Routes>
-  </Router>
+      </Routes>
+    </Router>
+  
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
