@@ -12,7 +12,6 @@ function App() {
       </div> */}
      
       <Navbar/>
-      
       <SocialLinks/>
       <Outlet/>
       <Execute/>
