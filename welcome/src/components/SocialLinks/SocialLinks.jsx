@@ -35,7 +35,7 @@ const SocialLinks = () => {
             href:"mailto:akshatg9636@gmail.com",
             
         },
-        {
+        {   
             id:4,
             child:(
                 <>
@@ -75,3 +75,19 @@ const SocialLinks = () => {
 
 
 export default React.memo(SocialLinks);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

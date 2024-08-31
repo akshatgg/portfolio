@@ -1,9 +1,12 @@
 import Projectitem from "./Projectitem";
 import SipcraftImage from "../../assets/Sipcraft.png";
 import Portfolio from "../../assets/portfolio.png";
+import Taleox from "../../assets/Taleox.png";
+
 import News from "../../assets/newsapp.png";
 import Grocery from "../../assets/Grocerylist.png";
 import AOS from "aos";
+
 import "aos/dist/aos.css";
 import "./style.css";
 import { useEffect } from "react";
@@ -30,6 +33,21 @@ function Project() {
           </p>
 
           <div className="flex flex-wrap" data-aos="fade-up">
+           
+           
+           
+          <Projectitem
+              projectname="Taleox"
+              content="This is a LMS portal where you can buy lectures and notes .you can also take subscribtion to any paricular teacher every teacher upload their own courses."
+              livepreview="https://taleox.onrender.com"
+              github="https://github.com/akshatgg/Taleox"
+              image={Taleox}
+              alt="Taleox"
+            />
+
+
+           
+           
             <Projectitem
               projectname="Sipcraft"
               content="Web-based platform that allows users to search, Drinks ,Cocktails ,Mocktails ,Shakes and you can easily buy and you can get your items at your doorstep."
@@ -38,6 +56,8 @@ function Project() {
               image={SipcraftImage}
               alt="Sipcraft"
             />
+
+
 
             <Projectitem
               projectname="Portfolio"
