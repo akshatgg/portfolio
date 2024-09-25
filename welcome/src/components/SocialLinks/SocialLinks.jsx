@@ -12,7 +12,7 @@ const SocialLinks = () => {
                  LinkedIn <FaLinkedin size={32}/>
                 </>
             ),
-            href:"https://www.linkedin.com/in/akshat-gupta-137885256/",
+            href:"https://www.linkedin.com/in/akshatgg",
             style:'rounded-tr-md'
         },
         {
@@ -42,7 +42,7 @@ const SocialLinks = () => {
                  Resume <BsFillPersonLinesFill size={32}/>
                 </>
             ),
-            href:"https://drive.google.com/file/d/1zps1dShW8fBeuaRooTXtpoJUtOnk-Xvs/view?usp=sharing",
+            href:"https://drive.google.com/file/d/1PeJ1ZHT1VWAg6BOY_U9d1OqwnuJESNoY/view?usp=sharing",
             style:'rounded-br-md',
             download: true,
         },
