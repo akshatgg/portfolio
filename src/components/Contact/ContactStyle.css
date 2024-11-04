@@ -1,0 +1,20 @@
+.input{
+    width: 400px;
+    max-width: 401px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+.screenw{
+    height:130vh;
+}
+
+.ttr{
+height: auto;
+width: 30rem;
+}
+
